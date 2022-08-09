@@ -65,15 +65,16 @@ class LoginForm extends StatelessWidget {
           
           ElevatedButton(
             onPressed: () {},
-            child: Text(
-              "Log in",
-              style: TextStyle(fontSize: 27),
-            ),
+            
             style: ButtonStyle(
               backgroundColor: MaterialStateProperty.all(Colors.purple),
               padding: MaterialStateProperty.all(EdgeInsets.symmetric(horizontal: 99, vertical: 15)),
               shape: MaterialStateProperty.all(RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(66))),
+            ),
+            child: Text(
+              "Log in",
+              style: TextStyle(fontSize: 27),
             ),
           ),
         ],
